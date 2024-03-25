@@ -1,0 +1,17 @@
+editor = "/opt/homebrew/bin/nvim"
+theme = "custom"
+padding-x = 5
+option-as-alt = "left"
+confirm-before-quit = false
+
+[window]
+width = 900
+height = 600
+
+[fonts]
+family = "SF Mono"
+size = 16
+
+[scroll]
+multiplier = 1.0
+divider = 1.0
