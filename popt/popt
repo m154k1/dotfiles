@@ -1,0 +1,2 @@
+rsync alias -i -hh --info=progress2
+rsync alias -Z --chmod=D755,F644
