@@ -1,0 +1,14 @@
+age
+cmake
+f2
+fish
+media-info
+meson
+neovim
+newsboat
+pkgconf
+rclone
+stow
+tree
+wireguard-tools
+xxhash
