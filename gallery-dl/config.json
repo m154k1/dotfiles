@@ -1,0 +1,24 @@
+{
+  "base-directory": "./",
+  "extractor": {
+    "filename": {
+      "manga != None": "{page:>03}.{extension}"
+    },
+    "directory": {
+      "manga != None": ["{manga}", "Ch.{chapter}{chapter_minor}{title:? - //}"]
+    },
+    "postprocessors": [
+      {
+        "name": "zip",
+        "extension": "cbz",
+        "whitelist": ["mangadex", "dynastyscans"]
+      }
+    ],
+    "mangadex": {
+      "lang": "en"
+    }
+  },
+  "cache": {
+    "file": null
+  }
+}
