@@ -1,0 +1,39 @@
+{
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 14,
+  "buffer_font_features": {
+    "zero": true
+  },
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 14,
+  "format_on_save": "off",
+  "terminal": {
+    "option_as_meta": true
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "auto_install_extensions": {
+    "html": false
+  },
+  "assistant": {
+    "enabled": false,
+    "version": "2"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
