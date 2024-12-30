@@ -1,0 +1,17 @@
+font-thicken = true
+font-feature = -calt
+font-feature = zero
+theme = light:NvimLight,dark:NvimDark
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+window-width = 120
+window-height = 35
+window-padding-x = 5
+window-padding-balance = true
+window-new-tab-position = end
+window-inherit-working-directory = false
+window-save-state = never
+window-colorspace = display-p3
+macos-titlebar-style = tabs
+macos-option-as-alt = true
