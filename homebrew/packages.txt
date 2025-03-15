@@ -1,0 +1,17 @@
+age
+cmake
+f2
+fd
+fish
+gallery-dl
+git
+less
+media-info
+meson
+neovim
+pkgconf
+ripgrep-all
+stow
+tree
+xxhash
+yt-dlp
