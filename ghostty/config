@@ -1,0 +1,17 @@
+font-feature = -calt,+zero
+font-thicken = true
+font-thicken-strength = 70
+alpha-blending = linear-corrected
+theme = light:xcodelighthc,dark:xcodedarkhc
+cursor-style-blink = false
+shell-integration-features = no-cursor,sudo
+window-width = 120
+window-height = 30
+window-padding-x = 4
+window-padding-balance = true
+window-new-tab-position = end
+window-inherit-working-directory = false
+window-save-state = never
+confirm-close-surface = false
+macos-titlebar-style = native
+macos-option-as-alt = true
