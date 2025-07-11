@@ -1,0 +1,54 @@
+{
+  "base_keymap": "JetBrains",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "buffer_font_features": {
+    "zero": true
+  },
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 14,
+  "vertical_scroll_margin": 5,
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "seed_search_query_from_cursor": "selection",
+  "use_smartcase_search": true,
+  "theme": {
+    "mode": "system",
+    "light": "Fleet Light",
+    "dark": "Fleet Dark"
+  },
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_sign_in": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "activate_on_close": "left_neighbour"
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
+  "terminal": {
+    "option_as_meta": true
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "auto_install_extensions": {
+    "html": false
+  },
+  "agent": {
+    "version": "2",
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
+  "restore_on_startup": "none",
+  "restore_on_file_reopen": false
+}
