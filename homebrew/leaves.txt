@@ -1,0 +1,17 @@
+cmake
+f2
+fd
+fish
+jaq
+media-info
+meson
+mole
+neovim
+pkgconf
+rclone
+ripgrep
+sd
+stow
+tree
+xh
+xxhash
