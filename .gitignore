@@ -1,0 +1,6 @@
+mpv/scripts/
+firefox/prefs-update
+fish/fish_variables
+
+zed/*
+!zed/settings.json
