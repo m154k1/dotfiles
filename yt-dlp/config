@@ -1,0 +1,4 @@
+--output %(id)s.%(ext)s
+--sub-langs en
+--no-cache-dir
+--js-runtimes quickjs
