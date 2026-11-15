@@ -1,0 +1,23 @@
+[fetch]
+  prune = true
+  pruneTags = true
+
+[pull]
+  rebase = false
+  ff = only
+
+[merge]
+  autoStash = true
+
+[rebase]
+  autoStash = true
+  updateRefs = true
+
+[status]
+  relativePaths = false
+
+[clean]
+  requireForce = false
+
+[pager]
+  branch = false

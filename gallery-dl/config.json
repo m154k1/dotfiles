@@ -1,0 +1,35 @@
+{
+  "extractor": {
+    "base-directory": "./",
+    "path-restrict": {
+      "/": "+",
+      ":": " -"
+    },
+    "filename": {
+      "manga": "{page:>03}.{extension}",
+      "tags_character": "{tags_character:J+/R /+/R_(/@/R)//X50/…/}-{id}.{extension}",
+      "filename": "{filename}.{extension}"
+    },
+    "directory": {
+      "manga": ["{manga}", "Ch.{chapter}{chapter_minor}{title:? - //}"],
+      "tags_artist": ["{tags_artist:J+/R /+/}"],
+      "author": ["{author}"]
+    },
+    "postprocessors": [
+      {
+        "name": "zip",
+        "extension": "cbz",
+        "filter": "manga"
+      }
+    ],
+    "booru": {
+      "tags": true
+    },
+    "mangadex": {
+      "lang": "en"
+    }
+  },
+  "cache": {
+    "file": null
+  }
+}
